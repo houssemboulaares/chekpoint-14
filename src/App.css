@@ -1,0 +1,26 @@
+.name{
+display: flex;
+justify-content: space-around;
+}
+.button{
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #0053cf; 
+  color: white;
+}
+
+.movie{
+  justify-content: center;
+display: flex;
+gap:20px
+}
+.moviepic{
+  display: flex;
+  flex-direction: column;
+}
+.moviepic img{
+width: 240px;
+height: 360px;
+}
